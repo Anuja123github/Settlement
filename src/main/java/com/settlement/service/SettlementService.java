@@ -1,6 +1,6 @@
-package com.driver.service;
+package com.settlement.service;
 
-import com.driver.model.Settlement;
+import com.settlement.model.Settlement;
 
 public interface SettlementService {
 	public Settlement saveSettlements(Settlement settlement);

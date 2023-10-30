@@ -1,4 +1,4 @@
-package com.driver.controller;
+package com.settlement.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.driver.model.Settlement;
-import com.driver.service.SettlementService;
+import com.settlement.model.Settlement;
+import com.settlement.service.SettlementService;
 
 @RestController
 public class SettlementController {

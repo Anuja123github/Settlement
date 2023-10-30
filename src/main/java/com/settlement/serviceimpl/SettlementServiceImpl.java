@@ -1,11 +1,11 @@
-package com.driver.serviceimpl;
+package com.settlement.serviceimpl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.driver.model.Settlement;
-import com.driver.repository.SettlementRepository;
-import com.driver.service.SettlementService;
+import com.settlement.model.Settlement;
+import com.settlement.repository.SettlementRepository;
+import com.settlement.service.SettlementService;
 
 @Service
 public class SettlementServiceImpl implements SettlementService {
@@ -14,13 +14,13 @@ public class SettlementServiceImpl implements SettlementService {
 	private SettlementRepository settlementRepository;
 	@Override
 	public Settlement saveSettlements(Settlement settlement) {
-		Settlement settlemet=settlementRepository.save(settlement);
-		return settlement;
+		Settlement settlement1=settlementRepository.save(settlement);
+		return settlement1;
 	}
 	@Override
 	public Settlement updateSettlements(Settlement settlement) {
 	Settlement settlement1=settlementRepository.save(settlement);
-		return settlement;
+		return settlement1;
 	}
 	@Override
 	public Settlement getSettlements(Integer id) {

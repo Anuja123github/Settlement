@@ -1,4 +1,4 @@
-package com.driver.model;
+package com.settlement.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

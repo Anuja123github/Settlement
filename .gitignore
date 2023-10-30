@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -35,3 +36,6 @@ build/
  ../.gitignore
         ../Driver_D/
         ../Insurance_D/
+=======
+/.metadata/
+>>>>>>> b5e90d4440f0e945d5ab6b1225bf482e2e6559f5
